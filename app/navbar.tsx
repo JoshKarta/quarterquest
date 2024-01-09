@@ -1,7 +1,7 @@
+import AddTransaction from "@/components/addTransaction";
 import { Heart, Home, WalletCards } from "lucide-react";
 import Link from "next/link";
 import React from "react";
-import AddTransaction from "./addTransaction";
 
 type TLink = {
   icon: React.JSX.Element;
@@ -16,7 +16,7 @@ export default function Navbar() {
     },
     {
       icon: <Heart className="icon-size hover:scale-90 transition-class" />,
-      href: "/",
+      href: "/wishlist",
     },
     {
       icon: <AddTransaction />,
@@ -25,7 +25,7 @@ export default function Navbar() {
       icon: (
         <WalletCards className="icon-size hover:scale-90 transition-class" />
       ),
-      href: "/",
+      href: "/accounts",
     },
     {
       icon: <Home className="icon-size hover:scale-90 transition-class" />,
