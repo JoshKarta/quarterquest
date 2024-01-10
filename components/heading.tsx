@@ -8,7 +8,7 @@ export default function Heading() {
   if (pathname.includes("/wishlist")) {
     return (
       <div className="container-screen py-4">
-        <p className="font-medium text-lg">Hey {name},</p>
+        <p className="font-semibold text-lg">Hey {name},</p>
         <p className="font-medium">
           Shoot for the moon. Even if you miss, you'll land among the stars.
         </p>
@@ -18,7 +18,7 @@ export default function Heading() {
 
   return (
     <div className="container-screen py-4">
-      <p className="font-medium text-lg">Welcome back {name}</p>
+      <p className="font-semibold text-lg">Welcome back {name}</p>
     </div>
   );
 }

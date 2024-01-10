@@ -73,13 +73,23 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@layer components {
   .container-screen {
     @apply max-w-7xl mx-auto px-4;
   }
   .icon-size {
     @apply h-6 w-6;
   }
+  .icon-size-sm {
+    @apply h-4 w-4;
+  }
   .transition-class {
     @apply duration-300 ease-in-out;
+  }
+
+  div[aria-roledescription="carousel"] button {
+    @apply hidden;
   }
 }
