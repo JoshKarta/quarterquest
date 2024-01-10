@@ -33,7 +33,7 @@ export default function Navbar() {
     },
   ];
   return (
-    <nav className="w-full h-16 bg-white">
+    <nav className="w-full h-20 bg-white">
       <div className="container-screen">
         <div className="flex items-center justify-between">
           {links.map(({ icon, href }: TLink) => (
